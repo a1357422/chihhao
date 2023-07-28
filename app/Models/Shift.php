@@ -1,0 +1,77 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Shift extends Model
+{
+    use HasFactory;
+    protected $table = 'shift';
+    protected $fillable=[
+        "a11",
+        "a21",
+        "a31",
+        "a41",
+        "a51",
+        "b12",
+        "b22",
+        "b32",
+        "b42",
+        "b52",
+        "c13",
+        "c13_2",
+        "c13_3",
+        "c23",
+        "c23_2",
+        "c23_3",
+        "c33",
+        "c33_2",
+        "c33_3",
+        "c43",
+        "c43_2",
+        "c43_3",
+        "c53",
+        "c53_2",
+        "c53_3",
+        "d14",
+        "d24",
+        "d34",
+        "d44",
+        "d54",
+        "e15",
+        "e25",
+        "e35",
+        "e45",
+        "e55",
+        "f16",
+        "f26",
+        "f36",
+        "f46",
+        "f46_2",
+        "f46_3",
+        "f56",
+        "g17",
+        "g27",
+        "g37",
+        "g47",
+        "g47_2",
+        "g47_3",
+        "g57",
+        "h18",
+        "h18_2",
+        "h18_3",
+        "h28",
+        "h28_2",
+        "h28_3",
+        "h38",
+        "h38_2",
+        "h38_3",
+        "h58",
+        "h58_2",
+        "h58_3",
+        "created_at",
+        "updataed_at",
+    ];
+}
